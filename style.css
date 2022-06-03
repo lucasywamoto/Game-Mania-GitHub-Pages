@@ -328,6 +328,55 @@ footer {
     margin-right: 1.5em;;
 }
 
+.login-page {
+    background-color: black;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.login-form {
+    background-color: #0066FF;
+    width: 380px;
+    height: 60%;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 48px;
+}
+
+.login-form label {
+    color: white;
+}
+
+.login-form div {
+    margin: 16px;
+}
+
+.form-enviar {
+    color: #0066FF;
+    font-weight: bold;
+    background-color: white;
+    padding: 5px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 16px;
+}
+
+#email, #senha {
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#email {
+    width: 185px;
+}
+
 @media screen and (max-width: 1080px) {
     .container-grid {
         width: 90%;
@@ -354,7 +403,7 @@ footer {
     }
 
     .formulario input {
-        width: 100  %;
+        width: 100%;
     }
 }
 
